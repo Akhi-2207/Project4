@@ -1,0 +1,51 @@
+.container1
+{
+    width:350px;
+    height:550px;
+    background-color:yellow;
+    margin:50px auto 0;
+    padding:20px 25px;
+    border:2px solid #c2d6ff;
+    color:#333;
+    border-radius:10px;
+    box-shadow:10px 0 10px;
+}
+
+#item1{
+    background-color: aqua;
+    color:white;
+}
+#item2{
+    background-color: aqua;
+    color:white;
+}
+#item3{
+    background-color: aqua;
+    color:azure;
+}
+#item4{
+    background-color: aqua;
+    color:azure;
+}
+#item5{
+    background-color: aqua;
+    color:azure;
+}
+#item6{
+    background-color: aqua;
+    color:azure;
+}
+#total{
+    background-color: yellow;
+    color:blue;
+
+}
+.button
+{
+    background-color: chartreuse;
+    border:2px solid #333;
+    border-radius: 5px;
+    width: 80px;
+    height:30px;
+}
+    

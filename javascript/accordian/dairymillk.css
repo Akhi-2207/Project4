@@ -1,0 +1,20 @@
+.container
+{
+    width:80%;
+    margin:50px auto;
+}
+.accordian
+{
+    width:100%;
+    text-align:left;
+    padding:10px;
+    font-size:20px;
+}
+
+.accordian-content
+{
+    height:0px;
+    overflow:hidden;
+    border:2px solid whitesmoke;
+    transition: height 0.9s linear;                                                                                                                                                                                                                                                                                                                                                                                    
+}

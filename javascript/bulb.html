@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <link rel="stylesheet" href="newcss.css"/>
+    
+  <script>
+    function bulbon()
+    {
+        img= document.getElementById('bulb');
+        if (img.getAttribute('src') =='bulb_off')
+        {
+            img.src = 'bulb_on.png';
+        } else
+        {
+            img.src = 'bulb_off.jpg';
+        }
+    }
+
+  </script>
+</head>
+<body>
+<div>
+  <img id="bulb" src="bulb_on.png" onclick="bulbon()" alt=""/>
+</div>
+</body>
+</html>
